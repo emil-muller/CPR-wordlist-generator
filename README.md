@@ -27,6 +27,6 @@ python3 CPR.py --date 01071997
 Generates all valid CPR-numbers for the day 1st of July, 1997.
 
 ```
-python3 CPR.py --start_date 20072001 --end_date 05122002 --gender m
+python3 CPR.py --start_date 20072001 --end_date 05122002 --gender m --output males-20072001-05122002.txt
 ```
 Generates all valid CPR-numbers for males in the date range 20th of July 2001 to 5th of December 2002.
