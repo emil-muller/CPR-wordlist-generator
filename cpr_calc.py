@@ -113,7 +113,7 @@ def filter_controls(year, control_nums):
     if year >= 1937 and year <= 2036:
         possible_controls.append(9)
     if len(possible_controls) == 0:
-        raise Exception("Year wasn't recognized")
+        raise Exception("Year wasn't recognized, must be between 1858 and 2057")
     for control_num in control_nums:
         control = int(control_num[1])
         if control in possible_controls:
