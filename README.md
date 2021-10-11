@@ -10,6 +10,7 @@ git clone git@github.com:emil-muller/CPR-wordlist-generator.git
 ```
 
 ## Flags
+
 `--date` - Generates all valid CPR-numbers for the given date. Note that the date must be of the format `%d%m%Y`.
 
 `--gender` - If this flag is set, only CPR-numbers for that specific gender is calculated. Possible values are `m` and `f`
